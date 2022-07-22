@@ -1,0 +1,48 @@
+	<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Jogo da Cobra</title>   
+<link href="style pac.css" type ="text/css" rel="stylesheet">   
+</head>
+
+<body>
+    <div class="heading">Snake Game</div>
+    <div class = "tela"><canvas id="tela" width="600" height="600"></canvas></div>
+    
+    <div class="geral">
+        <div class = "info">
+            <div class = "stringVidas">Vidas</div>
+            <div class= "classImg"><img src="vidas 2.png" id = "img_vidas" class="classImgDentro"></div>
+            <div class="stringTempo">Tempo Restante</div>	
+            <div class="tempoReal">60 segundos</div>
+            <div class="stringPontos">Pontos</div>
+            <div class="pontosReal">0 pontos</div>
+            <canvas id="info" width="300" height="35"></canvas>
+        </div>
+        
+        <div class = "rank">    
+            <div class ="stringRank">Ranking</div>
+            <div class="colocacao">
+                <div class="pLugar">1. __ - __ pontos</div>
+                <div class="sLugar">2. __ - __ pontos</div>
+                <div class="tLugar">3. __ - __ pontos</div>
+                <div class="q4Lugar">4. __ - __ pontos</div>
+                <div class="q5Lugar">5. __ - __ pontos</div>
+            </div>
+            <canvas id="rank" width="300" height="35"></canvas>
+        </div>
+    </div>
+
+
+    <div class = 'username'>
+        <input type = "text" id = "username">
+        <input type = "submit" value = "Salvar" id = "sub">
+    </div>	
+
+    <script src="snake pac.js"></script>
+</body>
+
+</html>
+

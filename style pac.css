@@ -1,0 +1,158 @@
+body {
+  background-color: rgb(15, 2, 27);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.geral {
+  visibility: hidden;
+}
+
+.info {
+  display: block;
+  border-style: groove;
+  border-color: blueviolet;
+  border-width: 8px;
+  background-color: black;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(0, -50%);
+}
+
+.stringVidas {
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+  color: white;
+}
+
+.classImg {
+  margin: auto;
+  height: 28px;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:auto;
+}
+
+.classImgDentro {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:auto;
+}
+
+.stringTempo {
+ 
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+  color: white;
+}
+
+.tempoReal {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  color: blueviolet;
+}
+
+.stringPontos {
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+  color: white;
+}
+
+.pontosReal {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  color: blueviolet;
+}
+
+.heading {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 130px;
+  color: white;
+}
+
+.tela {
+  display: block;
+  border-style: groove;
+  border-color: blueviolet;
+  border-width: 8px;
+
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.username {
+  position: fixed;
+  left: 50vw;
+  top: 550px;
+  transform: translate(-50%,2%);
+  display: none;
+}
+
+.rank {
+  display: block;
+  border-style: groove;
+  border-color: blueviolet;
+  border-width: 8px;
+  background-color: black;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  
+  transform: translate(0, -50%)
+}
+
+.stringRank {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+  color: white;
+}
+
+.pLugar {
+  margin-top: 20px;
+  color: #ffd700;
+}
+
+.sLugar {
+  margin-top: 20px;
+  color: #c0c0c0;
+}
+
+.tLugar {
+  margin-top: 20px;
+  color: #cd7f32;
+}
+
+.q4Lugar {
+  margin-top: 20px;
+  color: blueviolet;
+}
+
+.q5Lugar {
+  margin-top: 20px;
+  color: blueviolet;
+}
+
+.colocacao {
+  font-size: 20px;
+  text-align: center;
+}
