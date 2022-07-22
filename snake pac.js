@@ -47,10 +47,10 @@ onkeydown = verificarTecla;
 var x = [];
 var y = [];
 
-var somMusica = new Audio("UNATCO.mp3");
-var somPonto = new Audio("pickupCoin.wav");
-var somBatida = new Audio("hitHurt.wav");
-var somGameOver = new Audio("gameover.wav");
+var somMusica = new Audio("Sons/UNATCO.mp3");
+var somPonto = new Audio("Sons/pickupCoin.wav");
+var somBatida = new Audio("Sons/hitHurt.wav");
+var somGameOver = new Audio("Sons/gameover.wav");
 
 var painelInfo = document.querySelector(".geral");
 var imgVidas = document.getElementById("img_vidas");
@@ -241,15 +241,15 @@ function vida() {
 
 function trocaVidas() {
     if(vidas==1) {
-        imgVidas.src = "vidas 1.png";
+        imgVidas.src = "Imagens/vidas 1.png";
     }
 
     if(vidas==2) {
-        imgVidas.src = "vidas 2.png";
+        imgVidas.src = "Imagens/vidas 2.png";
     }
 
     if(vidas==3) {
-        imgVidas.src = "vidas 3.png";
+        imgVidas.src = "Imagens/vidas 3.png";
     }
 }
 
@@ -288,19 +288,19 @@ function cronometro() {
 
 function carregarImagens() {
     cabeca = new Image();
-    cabeca.src = "pac.png";    
+    cabeca.src = "Imagens/pac.png";    
     
     bola = new Image();
-    bola.src = "corpo.png"; 
+    bola.src = "Imagens/corpo.png"; 
     
     for(var contador = 0; contador<15;contador++) {
         maca[contador] = new Image();
-        maca[contador].src = "maca.png"; 
+        maca[contador].src = "Imagens/maca.png"; 
     }
     
     for(var contador = 0;contador<10;contador++) {
         obs[contador] = new Image();
-        obs[contador].src = "fantasma.png"
+        obs[contador].src = "Imagens/fantasma.png"
     }
 }
 
@@ -420,7 +420,7 @@ function verificarDerrota() {
 function verificarMaca() {
     for(var contador = 0;contador<15;contador++) {
         if ((x[0] == maca_x[contador]) && (y[0] == maca_y[contador])) {
-            var somPonto = new Audio("pickupCoin.wav");
+            var somPonto = new Audio("Sons/pickupCoin.wav");
 			somPonto.play();
 
             tamanho++;
